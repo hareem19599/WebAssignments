@@ -106,12 +106,21 @@ h1{
 #vogue{
   margin-top: 50px;
   margin: 5px;
+ 
 }
 #flowers{
   margin: 10px;
 }
 #vintage{
   margin: 10px;
+}
+#box{
+  display: flex;
+  flex-wrap: wrap;
+}
+#contactme{
+  display: flex;
+  flex-wrap: wrap;
 }
 .container{ 
   padding: 0px 20px;
@@ -183,8 +192,8 @@ label{
 }
 .form-group{
   width: 300px;
-  margin: 10px;
   margin-left: 1000px;
+  position: absolute;
 }
 ::placeholder{
   font-family: 'century gothic';
