@@ -192,7 +192,7 @@ label{
 }
 .form-group{
   width: 300px;
-  margin-left: 1000px;
+  margin: 20px;
   position: absolute;
 }
 ::placeholder{
