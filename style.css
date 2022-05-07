@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'century gothic';
+  
+}
+body{
+  background-color: #f0f0f0;
+}
+.container-fluid img{
+  width: 120px;
+  height: auto;
+}
+
+#but{
+  margin: 10px;
+}
+
+a{
+  text-decoration: none;
+  font-size: medium;
+  color: white;
+}
+a:hover {
+  color: black;
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+button:hover{
+  background-color: teal;
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+img {
+  width: 130px;
+  height: auto;
+  margin: 10px;
+  transition: all 0.5s;
+  border-radius: 4px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 4px 4px #a0a4a7;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #194546;
+  text-shadow: 4px 4px 4px #a0a4a7;
+  animation: animate 2s 1s forwards;
+  opacity: 0;
+}
+
+@keyframes animate {
+  from {
+    transform: translateX(-400px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+#vogue {
+  margin-top: 30px;
+  padding: 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+
+}
+
+#flowers {
+  margin-top: 30px;
+  padding: 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+#vintage {
+  margin-top: 30px;
+  padding: 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+#box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0px;
+  background-color: #f0f0f0;
+}
+
+  
+footer{
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #9cc0c2;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+
+.container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+ 
+  
+}
+
+span {
+  font-size: 1.5em;
+  color: #516779;
+}
+
+.btn {
+  background-color: teal;
+  color: white;
+  width: 100px;
+  border-radius: 3px;
+  border-color: teal;
+  font-family: 'trirong';
+}
+
+.btn:hover {
+  background-color: #73a1c7;
+  color: black;
+  border: #73a1c7;
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+
+
+.form-control {
+  box-shadow: 2px 2px 4px grey;
+  border: none;
+  padding: 20px;
+  transition: all 0.5s;
+}
+
+textarea[type=text],
+select {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: gainsboro;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+input[type=email],
+select {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: gainsboro;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+label,p {
+  color: black;
+  font-family: 'Caveat';
+  font-size: large;
+}
+.para{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+button{
+  background-color: #194546;
+  text-decoration: none;
+  border-color: #194546;
+  width: 150px;
+  border: #194546;
+  border-radius: 5px;
+  padding: 8px 10px; 
+
+}
+.form-group {
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+::placeholder {
+  font-family: 'century gothic';
+}
+
+.container .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.container h2 {
+  font-weight: 400;
+  margin-top: 10px;
+  color: #516779;
+  font-family: 'trirong';
+}
+
+/* rtl:begin:ignore */
+.container .col-lg-4 p {
+  margin-right: 1.25Rem;
+  margin-left: 1.25Rem;
+}
+
+.col-md-5 img {
+  width: 400px;
+  height: auto;
+
+}
+
+.col-md-5 order-md-1 img {
+  width: 400px;
+  height: auto;
+
+} 
+.col-lg-4{
+  border: 1px solid #4a154b;
+  border-radius: 5%;
+  width: 320px;
+  margin: 20px;
+  background-color: #f5cac3;
+}
+.col-lg-4:hover{
+  transition: 0.5s;
+  transform: scale(1.03);
+  background-color: #d1d2d2;
+
+}
+#cont{
+  background-color: #f7ede2;
+  border: 1px solid #516779;
+  border-radius: 10px;
+}
+
+.col-lg-4 img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.image {
+  width: fit-content;
+}
+
+.imagebox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
